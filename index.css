@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+   margin-bottom: 15px;
+text-align: center;
+color: black;
+font-size: 50px;
+}
+
+section {
+    position: relative;
+    margin:10px;
+    width: 90%;
+    overflow: hidden;
+   
+}
+
+p {
+    position: relative;
+    clear: right;
+}
+
+div {
+    position: relative;
+    background-color: gray;
+    border-width: 3.5px;
+    border-style: solid;
+    border-color:black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding-left: 10px;
+    padding-bottom: 10px;
+   
+}
+
+.sub1 {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    width:150px;
+    margin: -3px -3px 0px;
+    border: 3.5px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: #FFB6C1;
+    text-align: center;
+    
+
+}
+
+.sub2 {
+    float: right;
+    color: white;
+    width: 100px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: -3px -3px 0px;
+    border: 3.5px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: #FF0000;
+    width:150px;
+    text-align: center;
+
+}
+
+.sub3 {
+    color: black;
+    float: right;
+    width: 100px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+     margin: -3px -3px 0px;
+    border: 3.5px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: rgb(223, 212, 121);
+    width:150px;
+    text-align: center;
+
+}
+
+.content {
+    padding: 5px;
+    border: none;
+    background-color: gray;
+    font-family: Helvetica;
+    color: black;
+    margin: 3px ;
+    height: 150px;
+    overflow: auto;
+}
+
+.row {
+    width: 90%;
+}
+
+/*desktop version*/
+@media (min-width: 992px) {
+    .column-lg-4 {
+        float: left;
+        width: 30.33%;
+    }
+}
+
+/*tablet version*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .colmn-md-6 {
+        float: left;
+        width: 47%;
+        margin-left: 1.5%;
+        margin-right:1.5% ;
+        
+    }
+
+    .colmn-md-12 {
+        float: left;
+        width: 97%;
+        margin-left:1.5%;
+        margin-right: 1.5%;
+    }
+}
+
+/*mobile version*/
+@media (max-width: 767px) {
+    .colmn-sm-12 {
+        float: left;
+        width: 97%;
+        margin: 2%;
+        margin-right: 1%;
+        
+    }
+}
